@@ -103,3 +103,11 @@
   text-align-last: justify;
   color: var(--text);
 }
+#rparticles:after {
+  display: block;
+  content: "✿ kiikko";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .3;
+}
