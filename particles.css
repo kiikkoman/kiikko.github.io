@@ -29,15 +29,7 @@
 #rparticles > div {
   display: inline-block;
   vertical-align: top;
-}
 
-#rparticles > div > div, #rparticles > div > img, #rparticles > div a[href="https://is.gd/rossr"] > img {
-  width: var(--blockSize);
-  height: var(--blockSize);
-  margin: var(--blockMargin) calc(var(--blockMargin) / 2);
-  border-radius: var(--roundBorder);
-  position: relative;
-  overflow: hidden;
 }
 
 #rparticles > div:nth-child(1) > div {
@@ -52,7 +44,7 @@
   background: var(--bg3);
 }
 
-#rparticles > div:nth-child(3) > div {
+#rparticles > div:nth-child(4) > div {
   background: var(--bg4);
 }
 
@@ -93,6 +85,13 @@
   left: var(--boxOuterSpacing);
 }
 
+#rparticles div:nth-child(4) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(4) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
 #rparticles .rcol > div .rpos {
   position: relative;
   top: 50%;
