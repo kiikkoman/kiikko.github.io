@@ -54,6 +54,7 @@
 
 #rparticles > div:nth-child(4) > div {
   background: var(--bg4);
+  padding: 10px;
 }
 
 #rparticles .rcol > div {
@@ -107,8 +108,8 @@
   font: var(--fontWeight) var(--textSize)/var(--lineHeight) var(--font);
   letter-spacing: var(--letterSpacing);
   text-transform: uppercase;
-  text-align: justify;
-  text-align-last: justify;
+  text-align: center;
+  text-align-last: center;
   color: var(--text);
 }
 
