@@ -1,5 +1,5 @@
 #rparticles {
-  --blockSize: 50px;
+  --blockSize: 100px;
   --blockMargin: 5px;
   --bg1: #df9638;
   --bg2: #605b5f;
@@ -31,7 +31,7 @@
   vertical-align: top;
 }
 
-#rparticles > div > div, #rparticles > div > img, #rparticles > div a[href="https://is.gd/rossr"] > img {
+#rparticles > div > div, #rparticles > div > img, #rparticles > div a[href="https://warriorclancats.forumotion.com/u5343"] > img {
   width: var(--blockSize);
   height: var(--blockSize);
   margin: var(--blockMargin) calc(var(--blockMargin) / 2);
@@ -52,7 +52,7 @@
   background: var(--bg3);
 }
 
-#rparticles > div:nth-child(2) > div {
+#rparticles > div:nth-child(4) > div {
   background: var(--bg4);
 }
 
@@ -93,11 +93,11 @@
   left: var(--boxOuterSpacing);
 }
 
-#rparticles div:nth-child(2) .rcol > div {
+#rparticles div:nth-child(4) .rcol > div {
   top: -100%;
 }
 
-#rparticles div:nth-child(2) .rcol:hover > div {
+#rparticles div:nth-child(4) .rcol:hover > div {
   top: var(--boxOuterSpacing);
 }
 #rparticles .rcol > div .rpos {
@@ -114,7 +114,7 @@
 
 #rparticles:after {
   display: block;
-  content: "「R」";
+  content: "✿ kiikko";
   font: bold 8px/12px 'Consolas';
   color: #8e8e8e;
   text-transform: uppercase;
