@@ -52,7 +52,7 @@
   background: var(--bg3);
 }
 
-#rparticles > div:nth-child(4) > div {
+#rparticles > div:nth-child(2) > div {
   background: var(--bg4);
 }
 
@@ -93,11 +93,11 @@
   left: var(--boxOuterSpacing);
 }
 
-#rparticles div:nth-child(4) .rcol > div {
+#rparticles div:nth-child(2) .rcol > div {
   top: -100%;
 }
 
-#rparticles div:nth-child(4) .rcol:hover > div {
+#rparticles div:nth-child(2) .rcol:hover > div {
   top: var(--boxOuterSpacing);
 }
 #rparticles .rcol > div .rpos {
