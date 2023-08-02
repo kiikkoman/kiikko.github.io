@@ -59,7 +59,7 @@
   display: block;
   width: 80%;
   height: 12px;
-  background: var(--accent2);
+  background: var(--accent1);
   position: absolute;
   top: 55%;
   right: -15px;
@@ -113,7 +113,7 @@
   display: block;
   width: 80%;
   height: 12px;
-  background: var(--accent2);
+  background: var(--accent3);
   position: absolute;
   top: 55%;
   right: -15px;
@@ -140,7 +140,7 @@
   display: block;
   width: 80%;
   height: 12px;
-  background: var(--accent2);
+  background: var(--accent4);
   position: absolute;
   top: 55%;
   right: -15px;
