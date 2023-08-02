@@ -154,12 +154,12 @@
 
 #r2203_ily-but-idk:after {
   display: block;
-  content: "「R」";
+  content: "✿";
   font: bold 7px/12px 'Arial';
   text-transform: uppercase;
   opacity: .3;
 }
 
 #r2203_ily-but-idk:hover::after {
-  content: "「ROSS RESOURCES」";
+  content: "✿ kiikko";
 }
