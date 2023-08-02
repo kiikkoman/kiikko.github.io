@@ -31,7 +31,7 @@
 #r2203_ily-but-idk .rdec::after {
   content: "";
   width: 15px;
-  height: 200px;
+  height: 250px;
   background: var(--accent6);
   position: absolute;
   bottom: 10px;
