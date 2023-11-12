@@ -5,6 +5,7 @@
   --bg2: #605b5f;
   --bg3: #9fcdb2;
   --bg4: #935153;
+  --bg5: #4c3e2f
   --bgText: #fff;
   --text: #4c4c4c;
   --textSize: 7.5px;
@@ -56,6 +57,10 @@
   background: var(--bg4);
 }
 
+#rparticles > div:nth-child(5) > div {
+  background: var(--bg5);
+}
+
 #rparticles .rcol > div {
   width: calc(100% - var(--boxOuterSpacing) * 2);
   height: calc(100% - var(--boxOuterSpacing) * 2);
@@ -100,6 +105,15 @@
 #rparticles div:nth-child(4) .rcol:hover > div {
   top: var(--boxOuterSpacing);
 }
+
+#rparticles div:nth-child(5) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(5) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
+
 #rparticles .rcol > div .rpos {
   position: relative;
   top: 50%;
