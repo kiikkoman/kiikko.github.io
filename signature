@@ -1,0 +1,149 @@
+#rparticles {
+  --blockSize: 100px;
+  --blockMargin: 5px;
+  --bg1: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bg2: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bg3: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bg4: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bg5: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bg6: url(https://static.vecteezy.com/system/resources/previews/004/819/327/non_2x/male-avatar-profile-icon-of-smiling-caucasian-man-vector.jpg) ;
+  --bgText: #fff;
+  --text: #4c4c4c;
+  --textSize: 7.5px;
+  --lineHeight: 7px;
+  --font: 'Calibri';
+  --fontWeight: 900;
+  --letterSpacing: 1px;
+  --boxOuterSpacing: 4px;
+  --boxInnerSpacing: 3px;
+  --roundBorder: 0px;
+}
+
+#rparticles a {
+  display: block;
+}
+
+#rparticles img {
+  display: block;
+  object-fit: cover;
+}
+
+#rparticles > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#rparticles > div > div, #rparticles > div > img, #rparticles > div a[href="linkhere"] > img {
+  width: var(--blockSize);
+  height: var(--blockSize);
+  margin: var(--blockMargin) calc(var(--blockMargin) / 2);
+  border-radius: var(--roundBorder);
+  position: relative;
+  overflow: hidden;
+}
+
+#rparticles > div:nth-child(1) > div {
+  background: var(--bg1);
+}
+
+#rparticles > div:nth-child(2) > div {
+  background: var(--bg2);
+}
+
+#rparticles > div:nth-child(3) > div {
+  background: var(--bg3);
+}
+
+#rparticles > div:nth-child(4) > div {
+  background: var(--bg4);
+}
+
+#rparticles > div:nth-child(5) > div {
+  background: var(--bg5);
+}
+
+#rparticles > div:nth-child(5) > div {
+  background: var(--bg6);
+}
+
+
+#rparticles .rcol > div {
+  width: calc(100% - var(--boxOuterSpacing) * 2);
+  height: calc(100% - var(--boxOuterSpacing) * 2);
+  background: var(--bgText);
+  box-sizing: border-box;
+  padding: var(--boxInnerSpacing);
+  border-radius: calc(var(--roundBorder) / 2);
+  position: absolute;
+  top: var(--boxOuterSpacing);
+  left: var(--boxOuterSpacing);
+  transition: all .4s ease;
+}
+
+#rparticles div:nth-child(1) .rcol > div {
+  left: -100%;
+}
+
+#rparticles div:nth-child(1) .rcol:hover > div {
+  left: var(--boxOuterSpacing);
+}
+
+#rparticles div:nth-child(2) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(2) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
+
+#rparticles div:nth-child(3) .rcol > div {
+  left: 100%;
+}
+
+#rparticles div:nth-child(3) .rcol:hover > div {
+  left: var(--boxOuterSpacing);
+}
+
+#rparticles div:nth-child(4) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(4) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
+
+#rparticles div:nth-child(5) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(5) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
+
+#rparticles div:nth-child(6) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(6) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
+#rparticles .rcol > div .rpos {
+  position: relative;
+  top: 50%;
+  transform: translatey(-50%);
+  font: var(--fontWeight) var(--textSize)/var(--lineHeight) var(--font);
+  letter-spacing: var(--letterSpacing);
+  text-transform: uppercase;
+  text-align: center;
+  text-align-last: center;
+  color: var(--text);
+}
+
+#rparticles:after {
+  display: block;
+  content: "✿ kiikko";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .3;
+}
