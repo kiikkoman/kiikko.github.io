@@ -44,26 +44,32 @@
 
 #rparticles > div:nth-child(1) > div {
   background: var(--bg1);
+  background-size:cover;
 }
 
 #rparticles > div:nth-child(2) > div {
   background: var(--bg2);
+  background-size:cover;
 }
 
 #rparticles > div:nth-child(3) > div {
   background: var(--bg3);
+  background-size:cover;
 }
 
 #rparticles > div:nth-child(4) > div {
   background: var(--bg4);
+  background-size:cover;
 }
 
 #rparticles > div:nth-child(5) > div {
   background: var(--bg5);
+  background-size:cover;
 }
 
 #rparticles > div:nth-child(5) > div {
   background: var(--bg6);
+  background-size:cover;
 }
 
 
