@@ -1,11 +1,12 @@
 #rparticles {
   --blockSize: 100px;
   --blockMargin: 5px;
-  --bg1: #df9638;
-  --bg2: #605b5f;
-  --bg3: #9fcdb2;
-  --bg4: #4c3e2f;
-  --bg5: #4c3e2f
+  --bg1: url(https://i.imgur.com/zqGbjij.jpg) ;
+  --bg2: url(https://i.imgur.com/wpsbOF2.jpg) ;
+  --bg3: url(https://i.imgur.com/C2KvVYX.jpg) ;
+  --bg4: url(https://i.imgur.com/1vfMcpq.jpg) ;
+  --bg5: url(https://i.imgur.com/L1ZEw57.jpg) ;
+  --bg6: url(https://i.imgur.com/ZKU8nzd.jpg) ;
   --bgText: #fff;
   --text: #4c4c4c;
   --textSize: 7.5px;
@@ -61,6 +62,11 @@
   background: var(--bg5);
 }
 
+#rparticles > div:nth-child(5) > div {
+  background: var(--bg6);
+}
+
+
 #rparticles .rcol > div {
   width: calc(100% - var(--boxOuterSpacing) * 2);
   height: calc(100% - var(--boxOuterSpacing) * 2);
@@ -114,6 +120,13 @@
   top: var(--boxOuterSpacing);
 }
 
+#rparticles div:nth-child(6) .rcol > div {
+  top: -100%;
+}
+
+#rparticles div:nth-child(6) .rcol:hover > div {
+  top: var(--boxOuterSpacing);
+}
 #rparticles .rcol > div .rpos {
   position: relative;
   top: 50%;
